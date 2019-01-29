@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="tourism_html/vendor/bootstrap-4.1.3-dist/css/bootstrap-reboot.min.css">
+<link rel="stylesheet" href="tourism_html/vendor/bootstrap-4.1.3-dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="tourism_html/vendor/bootstrap-4.1.3-dist/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+<link rel="stylesheet" href="tourism_html/css/style.css">
+<link rel="stylesheet" href="tourism_html/css/navbar_and_header.css">
+<link rel="stylesheet" href="tourism_html/css/tours_lviv.css">
+<link rel="stylesheet" href="tourism_html/css/article.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md pb-0 navbar-light px-0 topMenu">
+        <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Контакти</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Про Нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Про Львів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Про Львівщину</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Туристам</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Турагенствам</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Блог</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Відгуки</a>
+                </li>
+            </ul>
+            <div id="navbarDropdown" class="text-center py-3 py-md-0 position-relative dropDown">
+                <p class="text-dark mb-0 font-weight-bold phoneNumber">
+                    <img class="mb-1" src="tourism_html/icons/phone-receiver.png" alt="phone">
+                    (068)-311-08-00
+                    <img class="mb-1" src="tourism_html/icons/arrow-down.png" alt="arrow down">
+                </p>
+                <div class="dropdownCont position-absolute">
+                    <div>
+                        <p class="f-gray">Консультації та замовлення за телефонами:</p>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                Львів:
+                                <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                                <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                Карпати, Закарпаття:
+                                <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                                <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            Львів, Карпати, Закарпаття (вихідні):
+                            <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="f-gray my-3   ">График работы:</p>
+                        <p class="foot-text">Пн - Пт &#8212; <span class="dp-bold">9.00-18.00</span></p>
+                        <p class="foot-text">Сб - Нд &#8212; +38 <span class="dp-bold">(097) 907-21-98</span></p>
+                    </div>
+                </div>
+            </div>
+            <ul class="navbar-nav flex-row justify-content-center justify-content-md-start languages">
+                <li class="nav-item active d-flex align-items-center">
+                    <a class="nav-link" href="#">ua</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ru</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">en</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">pl</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="header" class="pt-4">
+        <section class="d-flex align-items-center header position-relative">
+            <div>
+                <img src="tourism_html/icons/logo.png" alt="logo">
+            </div>
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <ul class="navbar-nav m-auto verticalMenuBorder">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Тури до Львова</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Тури по Львівщині</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Екскурсії по Львову</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Екскурсії по Львівщині</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav m-auto verticalMenuBorder">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Квести по Львову</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Квести по Львівщині</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Майстер-класи по Львову</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Майстер-класи по Львівщині</a>
+                    </li>
+                </ul>
+            </nav>
+            <p><img src="tourism_html/icons/placeholder-point.png" alt="pointer"> Як знайти нас?</p>
+            <span class="position-absolute white-line-r"></span>
+        </section>
+        <section class="position-relative slide-section">
+            <div class="position-absolute white-rectangle-cont">
+                <h6>Популярне на сайті</h6>
+                <img src="tourism_html/icons/white-border-rectangle.png" alt="white rectangle">
+            </div>
+
+            <div class="SlickCarousel mx-auto">
+                <div class="d-flex slideContainer">
+                    <article class="slide-content">
+                        <h2 class="font-weight-bold mb-0">ТУР НА НОВИЙ РІК У ЛЬВОВІ 2019</h2>
+                        <h4>3-4 Дні (Львів + Замки)</h4>   
+                        <h5 class="mb-4">Ціна 2450 грн</h5>   
+                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus vero quisquam
+                                sit quam sint eaque, eius, asperiores laborum, cumque voluptate?</p>
+                        <button class="font-weight-bold">ДЕТАЛЬНІШЕ</button>
+                    </article>
+                    <div class="slide-images-cont position-relative">
+                        <img class="position-absolute" src="tourism_html/images/lviv-opera.png" alt="lviv opera">
+                        <img class="position-absolute" src="tourism_html/images/yarmarok-lviv.png" alt="fair">
+                    </div>
+                    <!-- tablet version -->
+                    <article class="slide-content-tablet">
+                        <h4 class="font-weight-bold mb-0">ТУР НА НОВИЙ РІК У ЛЬВОВІ 2019</h4>
+                        <h5>3-4 Дні (Львів + Замки)</h5>   
+                        <div class="slide-images-cont d-flex">
+                            <img class="mr-1" src="tourism_html/images/lviv-opera.png" alt="lviv opera">
+                            <img src="tourism_html/images/yarmarok-lviv.png" alt="fair">
+                        </div>
+                        <div class="d-flex justify-content-between mt-3 align-items-end">
+                            <button class="font-weight-bold">ДЕТАЛЬНІШЕ</button>
+                            <h6 class="mb-0">Ціна 2450 грн</h6>
+                        </div>
+                    </article>
+                    <!-- mobile version -->
+                    <article class="slide-content-mobile">
+                        <section class="p-4 text-center">
+                            <h4 class="font-weight-bold mb-0">ТУР НА НОВИЙ РІК У ЛЬВОВІ 2019</h4>
+                            <h6>3-4 Дні (Львів + Замки)</h6>   
+                            <p class="mb-0 mt-3">
+                                <button class="font-weight-bold">ДЕТАЛЬНІШЕ</button>
+                            </p>
+                        </section>
+                    </article>
+                </div>
+
+                <div class="d-flex slideContainer">
+                        <article class="slide-content">
+                            <h2 class="font-weight-bold mb-0">ТУР НА НОВИЙ РІК У ЛЬВОВІ 2019</h2>
+                            <h4>3-4 Дні (Львів + Замки)</h4>   
+                            <h5 class="mb-4">Ціна 2450 грн</h5>   
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus vero quisquam
+                                    sit quam sint eaque, eius, asperiores laborum, cumque voluptate?</p>
+                            <button class="font-weight-bold">ДЕТАЛЬНІШЕ</button>
+                        </article>
+                        <div class="slide-images-cont position-relative">
+                            <img class="position-absolute" src="tourism_html/images/lviv-opera.png" alt="lviv opera">
+                            <img class="position-absolute" src="tourism_html/images/yarmarok-lviv.png" alt="fair">
+                        </div>
+                        <!-- tablet version -->
+                        <article class="slide-content-tablet">
+                            <h4 class="font-weight-bold mb-0">ТУР НА НОВИЙ РІК У ЛЬВОВІ 2019</h4>
+                            <h5>3-4 Дні (Львів + Замки)</h5>   
+                            <div class="slide-images-cont d-flex">
+                                <img class="mr-1" src="tourism_html/images/lviv-opera.png" alt="lviv opera">
+                                <img src="tourism_html/images/yarmarok-lviv.png" alt="fair">
+                            </div>
+                            <div class="d-flex justify-content-between mt-3 align-items-end">
+                                <button class="font-weight-bold">ДЕТАЛЬНІШЕ</button>
+                                <h6 class="mb-0">Ціна 2450 грн</h6>
+                            </div>
+                        </article>
+                        <!-- mobile version -->
+                        <article class="slide-content-mobile">
+                            <section class="p-4 text-center">
+                                <h4 class="font-weight-bold mb-0">ТУР НА НОВИЙ РІК У ЛЬВОВІ 2019</h4>
+                                <h6>3-4 Дні (Львів + Замки)</h6>   
+                                <p class="mb-0 mt-3">
+                                    <button class="font-weight-bold">ДЕТАЛЬНІШЕ</button>
+                                </p>
+                            </section>
+                        </article>
+                    </div>
+            </div>
+            <span class="position-absolute white-line-r"></span>
+            <span class="position-absolute white-line-l"></span>
+        </section>
+        <section class="text-center arrow-down-section">
+            <a href="#footer" target="_self">
+                <img src="tourism_html/icons/down-arrow-white.png" alt="arrow down">
+            </a>
+        </section>
+    </header>
+
+    <section class="tours">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 tour-content">
+                    <h2 class="dp-bold text-center">Тури до Львова</h2>
+                    <p class="text-center">Lorem ipsum dolor</p>
+                    <span class="position-absolute white-line-r"></span>
+                    <span class="position-absolute white-line-l"></span>
+                    <div class="tour_slider_1">
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 tour-content">
+                    <h2 class="dp-bold text-center">Екскурсії у Львові</h2>
+                    <p class="text-center">Lorem ipsum dolor</p>
+                    <span class="position-absolute white-line-r"></span>
+                    <span class="position-absolute white-line-l"></span>
+                    <div class="tour_slider_1">
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 tour-content">
+                    <h2 class="dp-bold text-center">Тури Львівщиною</h2>
+                    <p class="text-center">Lorem ipsum dolor</p>
+                    <span class="position-absolute white-line-r"></span>
+                    <span class="position-absolute white-line-l"></span>
+                    <div class="tour_slider_1">
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="img" style="background-image: url('http://kenwheeler.github.io/slick/img/fonz2.png')"></div>
+                            <div class="content">
+                                <h4 class="pb-0 mt-2">Название тура</h4>
+                                <p class="tour-price mb-1">от 350 грн</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Alias, quaerat! Aperiam
+                                    distinctio recusandae voluptatum…</p>
+                                <button class="detail pb-1">Детальніше</button>
+                                <p class="dates py-3">Даты: 29.12 - 01.01</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="dp-bold text-center">Відгуки</h2>
+                    <p class="text-center">Відгуки про наші послуги</p>
+                    <span class="position-absolute white-line-r"></span>
+                    <span class="position-absolute white-line-l"></span>
+                    <div class="slider">
+                        <div class="review-item d-flex flex-column">
+                            <img src="http://kenwheeler.github.io/slick/img/fonz2.png" />
+                            <div class="mx-auto">
+                                <h4>Ім'я<br>Прізвище</h4>
+                                <p class="review-date">29.12 в 12:35</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam totam, cumque optio maxime porro, ipsa, ratione voluptate sequi, nihil sint dolor velit. Temporibus, nulla sint laborum impedit labore debitis. Nulla, maiores, temporibus. Explicabo, error, recusandae pariatur officiis corporis quae consequatur adipisci totam at voluptate excepturi.
+                            </p>
+                        </div>
+                        <div class="review-item d-flex flex-column">
+                            <img src="http://kenwheeler.github.io/slick/img/fonz2.png" />
+                            <div class="mx-auto">
+                                <h4>Ім'я<br>Прізвище</h4>
+                                <p class="review-date">29.12 в 12:35</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam totam, cumque optio maxime porro, ipsa, ratione voluptate sequi, nihil sint dolor velit. Temporibus, nulla sint laborum impedit labore debitis. Nulla, maiores, temporibus. Explicabo, error, recusandae pariatur officiis corporis quae consequatur adipisci totam at voluptate excepturi.
+                            </p>
+                        </div>
+                        <div class="review-item d-flex flex-column">
+                            <img src="http://kenwheeler.github.io/slick/img/fonz2.png" />
+                            <div class="mx-auto">
+                                <h4>Ім'я<br>Прізвище</h4>
+                                <p class="review-date">29.12 в 12:35</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam totam, cumque optio maxime porro, ipsa, ratione voluptate sequi, nihil sint dolor velit. Temporibus, nulla sint laborum impedit labore debitis. Nulla, maiores, temporibus. Explicabo, error, recusandae pariatur officiis corporis quae consequatur adipisci totam at voluptate excepturi.
+                            </p>
+                        </div>
+                        <div class="review-item d-flex flex-column">
+                            <img src="http://kenwheeler.github.io/slick/img/fonz2.png" />
+                            <div class="mx-auto">
+                                <h4>Ім'я<br>Прізвище</h4>
+                                <p class="review-date">29.12 в 12:35</p>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam totam, cumque optio maxime porro, ipsa, ratione voluptate sequi, nihil sint dolor velit. Temporibus, nulla sint laborum impedit labore debitis. Nulla, maiores, temporibus. Explicabo, error, recusandae pariatur officiis corporis quae consequatur adipisci totam at voluptate excepturi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tours-info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="info-content offset-md-2 col-md-8">
+                    <h2><span class="dp-bold">Туры во Львов</span> - культурную столицу Украины</h2>
+                    <p>Львов – это древний украинский город, который привлекает туристов со всего мира. Первые упоминания о Львове появились в исторических
+                        документах еще в 13 веке, поэтому не удивительно, что сотни туристов из разных стран приезжают сюда посмотреть на сохранившиеся древнейшие
+                        здания и сооружения, возраст которых превышает несколько сот лет.</p>
+                    <p>
+                        Поездки во Львов никого не оставят равнодушным. Здесь мирно сосуществуют православные храмы и католические церкви, исторические памятки
+                        культуры, отголоски прошлого. Интересно, что центр Львова совсем невелик по размерам, но в нем присутствует столько невероятных загадок и
+                        интересных уголков, что бывает трудно увидеть все за несколько дней. Каждая поездка во Львов откроет перед гостем города новые потрясающие…</p>
+                    <button class="detail">Детальніше</button>
+                </div>
+                <div class="col-12">
+                    <div class="registration d-flex justify-content-end">
+                        <span class="position-absolute white-line-r"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button trigger modal -->
+    <a class="d-flex align-items-center registration-btn" href="#" data-toggle="modal" data-target="#feedbackForm">
+        <span class="text">Реєстрація</span>
+        <span class="bg-white-circle d-flex justify-content-center align-items-center ml-1">
+            <span class="icon-registration"></span>
+        </span>
+    </a>
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row position-relative">
+                <div class="col-md-12 d-flex justify-content-between info">
+                    <div>
+                        <span class="icon-point"></span> м. Львів, вул. Гайдамацька 11, офіс 7
+                    </div>
+                    <div>
+                        <a href="mailto:info@mail.com">info@mail.com</a> <span class="icon-mail"></span>
+                    </div>
+                    <div class="arrow-cont">
+                        <a href="#header" target="_self">
+                            <img src="tourism_html/icons/arrow-up.png" alt="arrow up">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex contact">
+                    <div class="col-md-5 schedule">
+                        <p class="f-gray">График работы</p>
+                        <p class="foot-text">Пн - Пт &#8212; <span class="dp-bold">9.00-18.00</span></p>
+                        <p class="foot-text">Сб - Нд &#8212; +38 <span class="dp-bold">(097) 907-21-98</span></p>
+                        <div class="copy">
+                            <p class="f-gray">&copy; Львівський туристичний центр 2019</p>
+                            <p class="f-gray">&reg; nectaryn.agency 2019</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="f-gray">Контактные телефоны</p>
+                        <div class="d-flex flex-row justify-content-between">
+                            <div>
+                                Львів:
+                                <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                                <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                            </div>
+                            <div>
+                                Карпати, Закарпаття:
+                                <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                                <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            Карпати, Закарпаття (вихідні):
+                            <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                            <p>+38 <span class="dp-bold">(097) 907-21-98</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 about-us">
+                    <p class="f-gray">Хто ми такі</p>
+                    <p>Львівській туристичний центр  – креативна команда, яка організовує активний
+                        відпочинок для молоді і для тих, хто любить насичений відпочинок. Пропонуємо:
+                        регулярні тури до Львова, екскурсії Львовом, замки Львівщини. Разом ми втілимо усі ваші мрії
+                        про кольорове життя вже сьогодні!</p>
+                </div>
+                <figure class="fixed-socials d-flex">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="tourism_html/icons/Group 296.png" alt="facebook"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="tourism_html/icons/Group 297.png" alt="youtube"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="tourism_html/icons/Group 298.png" alt="instagram"></a>
+                </figure>
+                <div class="text-center by col-md-12 order-2">Designed by <a href="">Nektaryn</a></div>
+            </div>
+        </div>
+    </footer>
+      
+    <!-- Modal -->
+    <div class="modal fade" id="feedbackForm" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content rounded-0 border-0">
+                <div class="modal-header justify-content-center border-0 pb-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <h3 class="m-auto">Реєстрація</h3>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label class="w-100">
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ім'я">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="w-100">
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Телефон">
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="w-100">
+                                <textarea class="form-control" placeholder="Коментар" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center border-0 pt-0">
+                    <button type="button" class="btn btn-primary w-50 send">Зареєструватись</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="tourism_html/js/jquery-3.3.1.min.js"></script>
+<script src="tourism_html/js/popper.min.js"></script>
+<script src="tourism_html/vendor/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="tourism_html/js/slick.min.js"></script>
+<script src="tourism_html/js/script.js"></script>
+</body>
+</html>

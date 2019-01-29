@@ -1,0 +1,807 @@
+.toure-detaile {
+    background: white;
+    padding: 75px;
+}
+
+.toure-detaile p {
+    font-size: 12px;
+}
+
+.header-contact-info button {
+    display: flex;
+}
+
+.header-contact-info button a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    min-width: 100%;
+}
+
+.tours.another-tours {
+    background-image: url('../images/Repeat Grid 2.png');
+    background-repeat: no-repeat;
+    background-position: 97% -200px;
+    background-color: #f2f7f8;
+}
+
+.payment-detaile {
+    background-image: url('../icons/Repeat Grid 14.png');
+    background-repeat: no-repeat;
+    background-position: 68% 80%;
+}
+
+.reviews a .white-line-r {
+    top: 48%;
+    right: -24px;
+}
+
+.payment-detaile h5 {
+    font-weight: 900;
+}
+
+.payment-detaile article {
+    padding: 80px 10px 0 50px;
+    flex: 1;
+    max-height: 320px;
+    min-height: 320px;
+}
+
+.payment-detaile article p {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #0f1d2b;
+}
+
+.payment-detaile .f-gray {
+    font-size: 11px;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.payment-detaile .inclusive {
+    background-image: linear-gradient(180deg, #a8d4af 0%, #a2d9f7 100%);
+}
+
+.reason .points h6,
+.reason .points p {
+    font-size: 1.3rem;
+}
+
+.reason .points p {
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+
+.reason .points h6 {
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.reason .points {
+    padding: 75px 10px 75px 90px;
+}
+
+.reason .social,
+.reason .points {
+    flex: 1;
+}
+
+.reason .social h6 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.reason .social .files {
+    margin-bottom: 50px;
+}
+
+.reason .social figure img {
+    margin-right: .7rem;
+}
+
+.reason .social {
+    max-width: 450px;
+    background-image: linear-gradient(180deg, #a8d4af 0%, #a2d9f7 100%);
+    padding: 75px 10px 75px 50px;
+}
+
+.reason .colorNum {
+    font-size: 25px;
+    line-height: 40px;
+    color: #159ee8;
+    font-weight: bold;
+}
+
+header .article-header-info h5 {
+    color: #159ee8;
+}
+
+header.article-header {
+    background-image: linear-gradient(0deg, #a8d4af 0%, #a2d9f7 100%);
+}
+
+header.article-header .header {
+    background-image: none;  
+}
+
+.header-info-cont .price-section {
+    max-width: 450px;
+}
+
+.header-info-cont .price-section,
+.header-info-cont .article-header-info {
+    flex: 1;    
+}
+
+.header-info-cont .article-header-info {
+    padding: 55px 0 50px 100px;
+}
+
+.header-info-cont .article-header-info > section {
+    max-width: 560px;
+    padding: 0;
+}
+
+.article-header-info > section .description {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 2rem;
+}
+
+.article-header-info h5 {
+    margin-bottom: 1rem;
+}
+
+.header-contact-info div,
+.header-contact-info section {
+    flex: 1;
+    padding: 0;
+}
+
+.header-contact-info section {
+    text-align: center;
+}
+
+.header-contact-info .consultation,
+.header-contact-info .booking {
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    max-width: 215px;
+    border: none;
+}
+
+.header-contact-info .booking {
+    background-color: #159ee8;
+    margin-bottom: 1rem
+}
+
+.header-contact-info .consultation {
+    background-image: url('../icons/button-bg.png');
+    background-repeat: repeat-x;
+}
+
+.header-contact-info {
+    margin-bottom: 2rem;
+}
+
+.header-info-cont .price-section {
+    padding: 80px 30px 50px 50px;
+    background-color: #f2f7f8;
+    background-image: url('../icons/Repeat Grid 9.png');
+    background-repeat: no-repeat;
+    background-position: 12% 30%;
+}
+
+.header-info-cont .price-section h3 {
+    line-height: 20px;
+    color: #159ee8;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.header-info-cont .price-section div {
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-info-cont .price-section .first::after {
+    content: '';
+    width: 90%;
+    height: 1px;
+    position: absolute;
+    background-color: #159ee8;
+    bottom: 0;
+}
+
+.header-info-cont .price-section div p {
+    max-width: 245px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0f1d2b;
+}
+
+.header-info-cont .price-section div span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.two-days-tour {
+    padding: 80px 100px 80px 75px;
+    background-color: #f2f7f8;
+    background-image: url('../icons/Repeat Grid 12.png'), url('../icons/Repeat\ Grid\ 12.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 2% 29%, 97% 57%;
+}
+
+.two-days-tour h2 {
+    text-align: center;
+    font-size: 45px;
+    line-height: 40px;
+    color: #0f1d2b;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.two-days-tour .first-day-cont {
+    max-width: 900px;
+    width: 100%;
+}
+
+.two-days-tour .first-day-cont section h5 {
+    font-size: 25px;
+    line-height: 23px;
+    color: #0f1d2b;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.two-days-tour .first-day-cont section small {
+    color: #0f1d2b;
+    margin-bottom: 1.2rem;
+    display: block;
+}
+
+.two-days-tour .first-day-cont section p:not(.breakfast) {
+    text-decoration: underline;
+    margin-bottom: .4rem
+}
+
+.two-days-tour .aside-day {
+    flex: 1;
+}
+
+.two-days-tour .saturday,
+.two-days-tour .sunday {
+    padding-right: 70px;
+}
+
+.two-days-tour .saturday p {
+    font-size: 25px;
+    line-height: 30px;
+    color: #a8d4af;
+    font-weight: bold;
+}
+
+.two-days-tour .sunday p {
+    font-size: 25px;
+    line-height: 30px;
+    color: #159ee8;
+    font-weight: bold;
+}
+
+.first-day-cont div:first-child {
+    margin-bottom: 40px;
+}
+
+.first-day-cont img {
+    max-height: 200px;
+    max-width: 330px;
+}
+
+.first-day-cont div {
+    justify-content: space-between;
+}
+
+.first-day-cont .hotel {
+    font-size: 25px;
+    line-height: 30px;
+    color: #0f1d2b;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+
+.first-day-cont .breakfast {
+    font-size: 25px;
+    line-height: 30px;
+    color: #0f1d2b;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.sunday + .first-day-cont div:first-child img {
+    margin-top: 4rem;
+}
+
+.sunday + .first-day-cont div:last-child h5 {
+    max-width: 350px;
+}
+
+@media screen and (max-width: 1400px) {
+    .two-days-tour {
+        padding: 80px 50px 80px 50px;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    .two-days-tour {
+        padding: 80px 50px 80px 50px;
+    }
+
+    .sunday + .first-day-cont .breakfast {
+        max-width: 290px;
+    }
+
+    .two-days-tour .first-day-cont {
+        max-width: 805px;
+    }
+
+    .sunday + .first-day-cont div:first-child img {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .two-days-tour .saturday p {
+        font-size: 20px;
+    }
+
+    .two-days-tour .sunday p {
+        font-size: 20px;
+    }
+
+    .first-day-cont img {
+        max-height: 166px;
+        max-width: 270px;
+    }
+
+    .two-days-tour .first-day-cont section h5 {
+        max-width: 350px;
+    }
+
+    .two-days-tour .first-day-cont {
+        max-width: 730px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .header-info-cont .article-header-info {
+        padding: 55px 0 50px 40px;
+    }
+
+    .header-info-cont .price-section {
+        padding: 80px 30px 50px 30px;
+        max-width: 410px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .another-tours .tour-content .white-line-r {
+        top: 54.7%;
+    }
+
+    .another-tours .tour-content .white-line-l {
+        top: 54.7%;
+    }
+
+    .two-days-tour .first-day-cont {
+        max-width: 650px;
+    }
+
+    .two-days-tour h2 {
+        font-size: 35px;
+    }
+
+    .tours.another-tours .tour-content {
+        padding-top: 40px;
+    }
+
+    .reason .points {
+        padding: 75px 10px 75px 50px;
+    }
+
+    .reason .points p {
+        font-size: 1rem;
+    }
+
+    .payment-detaile {
+        flex-wrap: wrap;
+        background-position: 74% 58%;
+    }
+
+    .payment-detaile article:last-child {
+        min-width: 100%;
+        padding: 20px 10px 0 0;
+    }
+
+    .payment-detaile article {
+        padding: 50px 10px 0 90px;
+        min-height: 246px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .another-tours .tour-content .white-line-r {
+        top: 58%;
+    }
+
+    .another-tours .tour-content .white-line-l {
+        top: 58%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .header-info-cont .article-header-info {
+        padding: 55px 0 50px 25px;
+    }
+    .header-info-cont .price-section {
+        padding: 80px 10px 50px 20px;
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .two-days-tour {
+        padding: 80px 25px 80px 25px
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .two-days-tour .day-tour-cont {
+        flex-wrap: wrap;
+    }
+
+    .two-days-tour .aside-day {
+        min-width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .two-days-tour .first-day-cont section h5 {
+        max-width: none;
+    }
+
+    .sunday + .first-day-cont .breakfast {
+        max-width: none;
+    }
+
+    .first-day-cont .hotel {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 65px;
+    } 
+
+    .first-day-cont .breakfast {
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .two-days-tour .first-day-cont {
+        min-width: 100%;
+    }
+
+    .reason .points {
+        padding: 50px 10px 50px 30px;
+    }
+
+    .reason .social {
+        padding: 50px 10px 50px 25px;
+        max-width: 260px;
+    }
+
+    .reason .social .files {
+        flex-wrap: wrap;
+    }
+
+    .reason .social .files p {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .two-days-tour .first-day-cont section h5 {
+        max-width: 350px;
+    }
+
+    .sunday + .first-day-cont .breakfast {
+        max-width: 290px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header-info-cont {
+        flex-wrap: wrap;
+    }
+
+    .info-section .header-contact-info + p {
+        text-align: center;
+    }
+
+    .header-info-cont .article-header-info,
+    .header-info-cont .price-section {
+        min-width: 100%;
+    }
+
+    .header-info-cont .article-header-info {
+        padding: 55px 25px 50px 25px;
+    }
+
+    .header-info-cont .price-section {
+        padding: 80px 15px 50px 15px;
+        max-width: 360px;
+    }
+
+    .header-info-cont .price-section h3 {
+        text-align: center;
+    }
+
+    .header-info-cont .price-section div {
+        justify-content: center;
+    }
+
+    .header-info-cont .price-section div p {
+        max-width: 400px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-right: 2rem;
+    }
+
+    .header-info-cont .price-section .first::after {
+        width: 65%;
+    }
+
+    .article-header-info .info-section {
+        margin: auto;   
+        padding: 55px 10px 50px 25px;
+        text-align: center;
+    }
+
+    .header-contact-info div {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .reason {
+        flex-wrap: wrap;
+    }
+
+    .reason .points,
+    .reason .social {
+        min-width: 100%;
+    }
+
+    .reason .points h6 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .reason .social {
+        text-align: center;
+    }
+
+    .reason .social .files {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .reason .social .files p {
+        min-width: auto;
+    }
+
+    .payment-detaile {
+        background-position: 100% 58%;
+    }
+
+    .payment-detaile article {
+        padding: 30px 10px 0 20px;
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .two-days-tour .first-day-cont section h5 {
+        font-size: 20px;
+        max-width: 280px;
+    }
+
+    .first-day-cont .breakfast,
+    .first-day-cont .hotel {
+        font-size: 16px;
+    }
+
+    .sunday + .first-day-cont div:last-child h5 {
+        max-width: 280px;
+    }
+
+    .sunday + .first-day-cont .breakfast {
+        max-width: 189px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .first-day-cont div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .first-day-cont img {
+        margin: auto;
+        order: -1;
+        margin-bottom: 2rem;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .two-days-tour .first-day-cont section h5 {
+        max-width: none;
+    }
+
+    .first-day-cont .hotel {
+        text-align: center;
+    }
+
+    .sunday + .first-day-cont div:first-child img {
+        margin-top: 0;
+    }
+
+    .sunday + .first-day-cont .breakfast {
+        text-align: center;
+        max-width: none;
+    }
+
+    .sunday + .first-day-cont div:last-child h5 {
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .payment-detaile article:last-child {
+        padding: 20px 10px 0 20px;
+    }
+
+    .reason .points p {
+        margin-left: 3rem;
+    }
+
+    .toure-detaile h5 {
+        text-align: center;
+        margin-bottom: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .header-info-cont .price-section div p {
+        max-width: 300px;
+        font-size: 14px;
+    }
+
+    .header-info-cont .price-section .first::after {
+        width: 75%;
+    }
+
+    .toure-detaile {
+        padding: 40px;
+    }
+
+    .toure-detaile h5 {
+        margin-bottom: 1rem;
+    }
+
+    .payment-detaile {
+        background-position: 88% 75%;
+    }
+
+    .payment-detaile article {
+        padding: 20px 10px 0 40px;
+        min-width: 100%;
+    }
+
+    .payment-detaile article h5 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .payment-detaile article:last-child {
+        padding: 0 10px 0 40px;
+    }
+
+    .header-info-cont .article-header-info {
+        padding: 55px 25px 50px 25px;
+    }
+
+    .article-header-info .info-section {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .sunday + .first-day-cont div:last-child h5 {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .two-days-tour .first-day-cont section h5 {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    .two-days-tour {
+        padding: 80px 24px 80px 24px;
+    }
+
+    .two-days-tour h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .article-header-info .info-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .article-header-info .info-section h5 {
+        font-size: 1.1rem;
+    }
+
+    .info-section .header-contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-section .header-contact-info div {
+        margin-bottom: 2rem;
+    }
+
+    .reason .points h6 {
+        font-size: 1.1rem;
+    }
+
+    .reason .points p {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header-info-cont .price-section div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-info-cont .price-section .first span {
+        margin-bottom: 1rem;
+    }
+
+    .header-info-cont .price-section div p {
+        margin-right: 0;
+    }
+
+    .payment-detaile article {
+        padding: 20px 20px 0 20px;
+    }
+
+    .payment-detaile article:last-child {
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .article-header-info .info-section h2 {
+        font-size: 1.3rem;
+    }
+}

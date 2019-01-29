@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "Din Pro";
+    src: url('../fonts/DINPro.otf');
+}
+@font-face {
+    font-family: "Din Pro Medium";
+    src: url('../fonts/DINPro-Medium.otf');
+}
+@font-face {
+    font-family: "Din Pro Bold";
+    src: url('../fonts/DINPro-Bold.otf');
+}
+
+* {
+    font-family: "Din Pro Medium";
+}
+
+.f-gray {
+    font-size: 11px;
+    color: #999;
+    margin-bottom: 5px;
+}
+.copy .f-gray {
+    margin-bottom: 0;
+}
+footer {
+    font-family: "Din Pro Medium";
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f1d2b;
+    padding: 10px 0;
+}
+footer p {
+    margin-bottom: 0;
+}
+footer .info {
+    margin-bottom: 65px;
+}
+a {
+    color: #0f1d2b;
+}
+footer .by {
+    margin-top: 65px;
+    font-size: 11px;
+    color: #159ee8;
+}
+footer .by a {
+    color: #159ee8;
+}
+.dp-bold {
+    font-family: "Din Pro Bold";
+}
+.icon-point {
+    display: inline-block;
+    width: 12px;
+    height: 16px;
+    background: url('../icons/placeholder-point.png');
+}
+.icon-mail {
+    display: inline-block;
+    width: 14px;
+    height: 11px;
+    background: url('../icons/envelope.png');
+}
+/* .tours {
+    background: url('../images/Repeat Grid 2.png') repeat;
+} */
+.tours-info {
+    padding-top: 100px;
+    padding-bottom: 15px;
+    background-color: #f2f7f8;
+}
+.tours-info p {
+    font-size: 12px;
+}
+button.detail {
+    margin-top: 15px;
+    height: 30px;
+    width: 120px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #0f1d2b;
+    color: white;
+    border: none;
+}
+.icon-registration {
+    height: 24px;
+    width: 22px;
+    display: inline-block;
+    background: url('../icons/invoice.png');
+}
+.bg-white-circle {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.slider img {
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    left: -20px;
+    top: 12px;
+}
+.slick-dots li {
+    width: 40px;
+    height: 3px;
+}
+.slick-dots li button:before {
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    content: '';
+}
+.slick-dots li.slick-active button:before {
+    background-color: #159ee8;
+}
+.reviews {
+    background-image: linear-gradient(180deg, #a8d4af 0%, #a2d9f7 100%);
+    padding: 60px 0;
+}
+.review-item {
+    width: 325px !important;
+    height: 385px;
+    background-color: white;
+    padding: 22px 35px 0 35px;
+    position: relative;
+    margin: auto;
+}
+.review-item p {
+    font-size: 12px;
+    font-family: "Din Pro Medium";
+}
+.review-item p.review-date {
+    line-height: 18px;
+    color: #159ee8;
+    margin-bottom: 2.3rem;
+}
+.review-item h4 {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 18px;
+    color: #0f1d2b;
+    font-family: "Din Pro Bold";
+}
+.slick-dots {
+    margin-top: 20px;
+    position: relative;
+}
+.slick-new-next,
+.slick-new-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 0;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+}
+.slick-new-next img,
+.slick-new-prev img {
+    width: 22px;
+    height: 15px;
+    left: 0;
+    top: 0;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
+.slick-new-next img {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.slick-new-next {
+    right: 0;
+}
+.slick-list.draggable {
+    width: 90%;
+    margin: auto;
+}
+.tour-item {
+    padding-top: 5px;
+    width: 325px !important;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    display: table !important;
+}
+.tour-item .img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 175px;
+}
+.tour-item h4 {
+    line-height: 18px;
+    color: #0f1d2b;
+    font-size: 20px;
+    font-family: "Din Pro Bold";
+}
+.tour-item .tour-price {
+    font-size: 20px;
+    color: #159ee8;
+    font-family: "Din Pro Bold";
+}
+.tour-item p {
+    font-size: 12px;
+}
+.tour-item .content {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.tour-item .dates {
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 18px;
+    color: #0f1d2b;
+    font-family: "Din Pro Bold";
+    text-align: center;
+}
+.tour-content {
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.tours .slick-dots li:not(.active) {
+    background-color: #b2b2b2;
+}
+.registration-btn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+}
+.registration-btn span:not(.text) {
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.44);
+}
